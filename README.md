@@ -211,3 +211,7 @@ public class ChessGame {
 }    
 ```
 
+# References :
+1. https://github.com/MayV/ChessGame
+2. https://www.youtube.com/watch?v=9soBz9lhZek
+
