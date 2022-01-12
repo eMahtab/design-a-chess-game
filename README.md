@@ -62,9 +62,9 @@ public class Knight extends Piece{
 	 boolean result = false;
 		
 	 for(int i=0;i<8;i++) {
-	     int x = this.position.getX();
-	     int y = this.position.getY();
-	     if(x+tx[i]>=0 && x+tx[i]<8 && y+ty[i]>=0 && y+ty[i]<8 && x+tx[i]==dest.x && y+ty[i]==dest.y) {
+	     int x = this.position.getX() + tx[i];
+	     int y = this.position.getY() + ty[i];
+	     if(x >= 0 && x < 8 && y >= 0 && y < 8 && x == dest.x && y == dest.y) {
 		result = true;
 	     }
 	 }
