@@ -1,5 +1,7 @@
 # Design a chess game
 
+![Chess](chess.JPG?raw=true)
+
 ## System requirements :
 
 1. Till the game is ACTIVE, players have to take their turn.
