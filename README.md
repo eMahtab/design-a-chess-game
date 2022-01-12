@@ -96,7 +96,7 @@ public class Knight extends Piece{
 	 int[] ty = new int[]{-1, 1, 2, 2, 1, -1, -2, -2};
 	 boolean result = false;
 		
-	 for(int i=0;i<8;i++) {
+	 for(int i = 0; i < 8; i++) {
 	     int x = this.position.getX() + tx[i];
 	     int y = this.position.getY() + ty[i];
 	     if(x >= 0 && x < 8 && y >= 0 && y < 8 && x == dest.x && y == dest.y) {
