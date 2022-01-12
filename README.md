@@ -192,3 +192,22 @@ public class ChessBoard {
 }
 ```
 
+# ChessGame
+```java
+public class ChessGame {
+     private Player black;
+     private Player white;
+     private ChessBoard chessBoard;
+     private boolean whiteTurn;
+     private GameStatus status;
+	
+     public ChessGame() {
+	this.black = new Player(false);
+	this.white = new Player(true);
+	this.chessBoard = new ChessBoard(black, white);	
+	this.whiteTurn = true;
+	this.status = GameStatus.ACTIVE;
+    }
+}    
+```
+
