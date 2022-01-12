@@ -70,7 +70,7 @@ public class Knight extends Piece{
      }
 	
      public boolean checkMove(Position dest) {
-	 if(dest.x<0 || dest.x>7 || dest.y<0 || dest.y>7) {
+	 if(dest.x < 0 || dest.x > 7 || dest.y < 0 || dest.y > 7) {
 		return false;
 	 }
 		
