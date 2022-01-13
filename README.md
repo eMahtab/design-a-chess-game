@@ -13,6 +13,20 @@
 4. Handle Check conditions.
 
 
+In chess, check is an attack on an enemy king; this attack can’t be ignored. If the check can’t be neutralized, it is checkmate and the game is over. Stalemate occurs when one player has no legal moves, but his king isn’t in check. Here are a few additional details on check, checkmate, and stalemate in chess:
+
+1. **Check:** An attack on a king by either an opposing piece or an opposing pawn is called check. When in check, a player must do one of the following:
+```
+(i). Move the king so that it’s no longer under attack.
+
+(ii). Block the attack by interposing a piece between the king and the attacker.
+
+(iii). Capture the attacking piece.
+```
+2. **Checkmate:** When a king is in check and can’t perform any of the preceding moves, it has been checkmated. If your king is checkmated, you lose the game. The term checkmate is commonly shortened to simply mate.
+
+3. **Stalemate:** Stalemate is the relatively rare situation when a player whose king isn’t in check has no legal move to make. Stalemate is considered a draw. Neither player wins, but the game is over.
+
 # Position
 ```java
 public class Position {
